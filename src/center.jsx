@@ -1,7 +1,7 @@
 import React from 'react';
 import Prefixer from 'inline-style-prefixer';
 
-export default ({ prefixer = new Prefixer(), children, ...rest }) => {
+export default ({ style, prefixer = new Prefixer(), children, ...rest }) => {
   const flexContainerStyle = {
     alignContent: 'center',
     alignItems: 'center',
@@ -13,7 +13,7 @@ export default ({ prefixer = new Prefixer(), children, ...rest }) => {
   };
 
   return (
-    <div style={prefixer.prefix(flexContainerStyle)} {...rest}>
+    <div style={{ ...style, ...prefixer.prefix(flexContainerStyle) }} {...rest}>
       {children}
     </div>
   );
