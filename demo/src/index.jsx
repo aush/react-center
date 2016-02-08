@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import Center from '../../dist/index';
 
 ReactDOM.render(
-  <Center>
-    <div className="box1">1</div>
+  <Center className="center">
+    <div className="box" />
   </Center>,
   document.getElementById('app')
 );
