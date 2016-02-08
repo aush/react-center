@@ -1,6 +1,6 @@
 {
   "name": "react-center",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple react component to center content horizontally and vertically",
   "scripts": {
     "clean": "rimraf dist/*",
