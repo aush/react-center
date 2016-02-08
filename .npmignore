@@ -1,0 +1,15 @@
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+.travis.yml
+coverage
+demo
+karma*
+node_modules
+npm-debug.log
+src
+tests
+webpack*

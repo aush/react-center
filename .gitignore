@@ -1,0 +1,7 @@
+coverage
+dist
+demo/node_modules
+demo/build/**
+!demo/build/index.html
+node_modules
+npm-debug.log

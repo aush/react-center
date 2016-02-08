@@ -1,0 +1,17 @@
+{
+  "name": "react-center-demo",
+  "description": "Demo for react-center component",
+  "scripts": {
+    "build": "webpack --display-error-details --progress",
+    "start": "opn build/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "opn-cli": "^3.0.1",
+    "webpack": "^1.12.12"
+  }
+}
