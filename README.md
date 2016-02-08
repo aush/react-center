@@ -35,7 +35,7 @@ The component depends on React ^0.14 (a introduction of stateless components), s
 ###API
 No properties.
 
-Also check [tests](https://github.com/aush/react-center/blob/master/test).
+Also check [tests](https://github.com/aush/react-center/blob/master/test/center.spec.js).
 ###Demo
 Navigate to the 'demo' folder and execute
 ```
