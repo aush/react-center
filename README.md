@@ -28,9 +28,9 @@ var Center = require('react-center');
 #####Good old 1998 Script Tag:
 The component depends on React ^0.14 (a introduction of stateless components), so if you're using it without a build step, React ^0.14 must be present as a global.
 ````html
-<script src="https://npmcdn.com/react@^0.14/dist/react.min.js"></script>
-<script src="https://npmcdn.com/react-dom@^0.14/dist/react-dom.min.js"></script>
-<script src="https://npmcdn.com/react-center"></script>
+<script src="https://unpkg.com/react@^0.14/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@^0.14/dist/react-dom.min.js"></script>
+<script src="https://unpkg.com/react-center"></script>
 ````
 ###API
 Check [tests](/test/center.spec.js).
