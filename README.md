@@ -14,7 +14,7 @@ import ReactDOM from 'react-dom';
 import Center from 'react-center';
 
 ReactDOM.render(
-  <Center>
+  <Center style={{ width: '100vh' }}>
     <div>1</div>
   </Center>,
   document.getElementById('app')
